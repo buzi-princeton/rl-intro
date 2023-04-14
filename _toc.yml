@@ -3,7 +3,9 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+  - caption: I. Tabular Solution Methods
+    chapters:
+    - file: tabular/multi-armed-bandits/00-intro-eng
+      sections:
+      - file: tabular/multi-armed-bandits/01-k-armed-bandit-eng
