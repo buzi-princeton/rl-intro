@@ -8,7 +8,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to your Jupyter Book &#8212; My sample book</title>
+    <title>Học tăng cường cơ bản &#8212; Introduction to Reinforcement Learning</title>
   
   
   
@@ -62,7 +62,6 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Markdown Files" href="markdown.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="None"/>
   </head>
@@ -149,16 +148,11 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1 current active">
                 <a class="reference internal" href="#">
-                    Welcome to your Jupyter Book
+                    Học tăng cường cơ bản
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="markdown.html">Markdown Files</a></li>
-<li class="toctree-l1"><a class="reference internal" href="notebooks.html">Content with notebooks</a></li>
-<li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
-</ul>
-
+        
     </div>
 </nav></div>
     </div>
@@ -211,7 +205,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+      <li><a href="https://github.com/buzinguyen/rl-intro" target="_blank"
    class="btn btn-sm btn-source-repository-button dropdown-item"
    title="Source repository"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -228,7 +222,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/buzinguyen/rl-intro/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -327,7 +321,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -338,11 +334,21 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Welcome to your Jupyter Book</h1>
+    <h1>Học tăng cường cơ bản</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gioi-thieu">Giới thiệu</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#muc-luc">Mục lục</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tai-lieu-tham-khao">Tài liệu tham khảo</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -352,19 +358,30 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <div class="tex2jax_ignore mathjax_ignore section" id="welcome-to-your-jupyter-book">
-<h1>Welcome to your Jupyter Book<a class="headerlink" href="#welcome-to-your-jupyter-book" title="Permalink to this headline">#</a></h1>
-<p>This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out <a class="reference external" href="https://jupyterbook.org">the Jupyter Book documentation</a> for more information.</p>
-<p>Check out the content pages bundled with this sample book to see more.</p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="markdown.html">Markdown Files</a></li>
-<li class="toctree-l1"><a class="reference internal" href="notebooks.html">Content with notebooks</a></li>
-<li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
+  <div class="tex2jax_ignore mathjax_ignore section" id="hoc-tang-cuong-co-ban">
+<h1>Học tăng cường cơ bản<a class="headerlink" href="#hoc-tang-cuong-co-ban" title="Permalink to this headline">#</a></h1>
+<div class="section" id="gioi-thieu">
+<h2>Giới thiệu<a class="headerlink" href="#gioi-thieu" title="Permalink to this headline">#</a></h2>
+<p>Cuốn sách này tổng hợp những trải nghiệm và kiến thức trong nghiên cứu của tác giả trong quá trình học tập và nghiên cứu tại đại học Princeton. Cuốn sách được cấu trúc từ cơ bản đến nâng cao.</p>
+<p>Cuốn sách sẽ được mở mã nguồn hoàn toàn tại <a class="reference external" href="https://github.com/buzinguyen/rl-intro">repo của sách</a>. Bạn cũng có thể xem bản online được cập nhật thường xuyên của sách tại <a class="reference external" href="https://www.buzinguyen.com/rl-intro/intro.html">đây</a>.</p>
+<p>Cuốn sách vẫn đang trong quá trình phát triển và cập nhật. Mọi thắc mắc và yêu cầu chỉnh sửa xin gửi về <a class="reference external" href="mailto:duyn&#37;&#52;&#48;princeton&#46;edu">duyn<span>&#64;</span>princeton<span>&#46;</span>edu</a>. Cảm ơn các bạn đã quan tâm.</p>
+</div>
+<div class="section" id="muc-luc">
+<h2>Mục lục<a class="headerlink" href="#muc-luc" title="Permalink to this headline">#</a></h2>
+</div>
+<div class="section" id="tai-lieu-tham-khao">
+<h2>Tài liệu tham khảo<a class="headerlink" href="#tai-lieu-tham-khao" title="Permalink to this headline">#</a></h2>
+<p>Cuốn sách này được dựa trên rất nhiều nguồn tài liệu tham khảo, được đúc kết, tham lược và rút gọn theo cách hiểu và sử dụng của tác giả. Danh sách những cuốn sách sẽ được sử dụng nhiều nhất bao gồm:</p>
+<ul class="simple">
+<li><p>Reinforcement Learning: An Introduction (2nd edition) của Richard Sutton và Andrew Barto <span id="id1">[<a class="reference internal" href="#id3" title="Richard S. Sutton and Andrew G. Barto. Reinforcement Learning: An Introduction. The MIT Press, second edition, 2018. URL: http://incompleteideas.net/book/the-book-2nd.html.">SB18</a>]</span></p></li>
 </ul>
+<div class="docutils container" id="id2">
+<dl class="citation">
+<dt class="label" id="id3"><span class="brackets"><a class="fn-backref" href="#id1">SB18</a></span></dt>
+<dd><p>Richard S. Sutton and Andrew G. Barto. <em>Reinforcement Learning: An Introduction</em>. The MIT Press, second edition, 2018. URL: <a class="reference external" href="http://incompleteideas.net/book/the-book-2nd.html">http://incompleteideas.net/book/the-book-2nd.html</a>.</p>
+</dd>
+</dl>
+</div>
 </div>
 </div>
 
@@ -396,21 +413,28 @@ It does not go in-depth into any particular topic - check out <a class="referenc
                 <footer class="bd-footer-article">
                   <!-- Previous / next buttons -->
 <div class="prev-next-area">
-    <a class="right-next"
-       href="markdown.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Markdown Files</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
 </div>
                 </footer>
               
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gioi-thieu">Giới thiệu</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#muc-luc">Mục lục</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tai-lieu-tham-khao">Tài liệu tham khảo</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
@@ -421,7 +445,7 @@ It does not go in-depth into any particular topic - check out <a class="referenc
   <div class="footer-item">
     
 <p class="component-author">
-By The Jupyter Book Community
+By Duy P. Nguyen
 </p>
 
   </div>
