@@ -1,1 +1,1 @@
-# Chapter 1: Tabular solution method
+# Part 1: Tabular solution methods
