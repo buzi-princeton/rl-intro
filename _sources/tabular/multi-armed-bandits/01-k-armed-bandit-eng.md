@@ -1,1 +1,1 @@
-# 1.1 A k-armed bandit problem
+# 1.1. A k-armed bandit problem
